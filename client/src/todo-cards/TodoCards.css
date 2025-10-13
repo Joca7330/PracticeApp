@@ -1,0 +1,15 @@
+/* * {
+    padding: 10px;
+} */
+
+.todo-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.todo {
+    height: 300px;
+    width: 300px;
+}

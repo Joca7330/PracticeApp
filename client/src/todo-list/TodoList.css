@@ -1,0 +1,36 @@
+/* .todo-container {
+    background-color: lightgrey;
+    height: 100vh;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* 
+.todo-card {
+    background-color: white;
+    width: 440px;
+    height: 548px;
+    padding: 46px 39px 28px 39px;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* .todo-title {
+color: black
+;} */
+
+.input,
+.button-container,
+.main-container,
+.input-container {
+    border: solid 2px orange;
+}
+
+.input {
+    margin-right: 5px;
+}
+
+h1 {
+    margin: 20px;
+}

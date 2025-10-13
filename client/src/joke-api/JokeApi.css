@@ -1,0 +1,27 @@
+.joke-container,.joke {
+    border: red solid 1px;
+}
+
+.joke-container {
+    background-color: #2a2a2a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.joke {
+    width: 404px;
+    height: 805px;
+    border-radius: 24px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px 26px 39px;
+    margin: 56px;
+}
