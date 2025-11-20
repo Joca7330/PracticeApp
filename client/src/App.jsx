@@ -15,27 +15,24 @@ import JokeApi from './joke-api/JokeApi'
 import ShareButton from './share-button/ShareButton'
 
 const App = () => {
-  const [darkMode, setDarkMode] = useLocalStorage('darkMode', false)
 
   return (
-    <ThemeContext.Provider value={{ darkMode, setDarkMode }}>
-      <BrowserRouter>
-        <div className='app' >
-          <div className='app-container'>
-            <Routes>
-              <Route path='/todo' element={<TodoCards />} />
-              <Route path='/signin' element={<SignInForm />} />
-              <Route path='/signup' element={<SignUpForm />} />
-              <Route path='/*' element={<NotFound />} />
-              <Route path='/darkmode' element={<DarkMode />} />
-              <Route path='/todolist' element={<TodoList />} />
-              <Route path='/joke' element={<JokeApi />} />
-              <Route path='/share' element={<ShareButton />} />
-            </Routes>
-          </div>
+    <BrowserRouter>
+      <div className='app' >
+        <div className='app-container'>
+          <Routes>
+            <Route path='/todo' element={<TodoCards />} />
+            <Route path='/signin' element={<SignInForm />} />
+            <Route path='/signup' element={<SignUpForm />} />
+            <Route path='/*' element={<NotFound />} />
+            <Route path='/darkmode' element={<DarkMode />} />
+            <Route path='/todolist' element={<TodoList />} />
+            <Route path='/joke' element={<JokeApi />} />
+            <Route path='/share' element={<ShareButton />} />
+          </Routes>
         </div>
-      </BrowserRouter>
-    </ThemeContext.Provider>
+      </div>
+    </BrowserRouter>
   )
 }
 export default App

@@ -10,7 +10,7 @@ const DarkMode = () => {
     // const theme = useContext(Context)
     // console.log(theme)
     const theme = useContext(ThemeContext)
-    console.log(theme)
+
 
     // Toggle dark mode on click
     const toggleTheme = () => {
